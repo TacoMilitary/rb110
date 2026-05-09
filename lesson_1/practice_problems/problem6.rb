@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
 def tri_character_array!(strings)
-  strings.map! do |str|
-    index_max = [3, str.length].min - 1
-    str[..index_max]
-  end
-
+  strings.map! { |str| str[0, 3] }
   strings
 end
 
