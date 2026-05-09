@@ -4,7 +4,7 @@ def titleize(string)
   string.split.map(&:capitalize).join(' ')
 end
 
-words = "the flintstones rock"
+words = 'the flintstones rock'
 
 p words
 p titleize(words)
