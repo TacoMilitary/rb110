@@ -12,5 +12,4 @@ def create_uuid
   sections.join '-'
 end
 
-
-p create_uuid(), create_uuid(), create_uuid(), create_uuid()
+100.times { puts create_uuid }
